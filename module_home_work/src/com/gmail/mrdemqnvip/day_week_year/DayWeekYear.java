@@ -1,7 +1,5 @@
-package com.gmail.mrdemqnvip.dayWeekYear;
+package com.gmail.mrdemqnvip.day_week_year;
 
-
-import java.util.Scanner;
 
 public class DayWeekYear {
 

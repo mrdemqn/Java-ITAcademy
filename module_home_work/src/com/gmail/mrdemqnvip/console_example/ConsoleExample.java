@@ -1,4 +1,4 @@
-package com.gmail.mrdemqnvip.consoleExample;
+package com.gmail.mrdemqnvip.console_example;
 import java.util.Scanner;
 
 import static java.lang.Math.*;

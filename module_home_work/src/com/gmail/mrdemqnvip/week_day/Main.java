@@ -1,4 +1,4 @@
-package com.gmail.mrdemqnvip.weekDay;
+package com.gmail.mrdemqnvip.week_day;
 
 public class Main {
 

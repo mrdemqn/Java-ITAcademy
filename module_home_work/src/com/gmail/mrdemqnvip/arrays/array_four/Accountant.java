@@ -1,9 +1,9 @@
-package com.gmail.mrdemqnvip.arrays.arrayFour;
+package com.gmail.mrdemqnvip.arrays.array_four;
 
 public class Accountant {
 
     public static void main(String[] args) {
-        int acco = 100_000_000;
+        String  acco = "100 000 000";
         System.out.println("Accounting format: " + acco);
     }
 

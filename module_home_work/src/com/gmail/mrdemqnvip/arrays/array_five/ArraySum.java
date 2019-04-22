@@ -1,4 +1,4 @@
-package com.gmail.mrdemqnvip.arrays.ArrayFive;
+package com.gmail.mrdemqnvip.arrays.array_five;
 
 import java.util.Arrays;
 

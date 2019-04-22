@@ -1,4 +1,4 @@
-package com.gmail.mrdemqnvip.arrays.arrayThree;
+package com.gmail.mrdemqnvip.arrays.array_three;
 
 import java.util.Scanner;
 

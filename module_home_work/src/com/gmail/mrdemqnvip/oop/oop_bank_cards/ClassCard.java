@@ -7,6 +7,6 @@ public class ClassCard extends PremCard {
     }
     @Override
     public void validity() {
-        System.out.println("Validity date Classic card: 09.2021" );
+        System.out.println("Validity Classic card: 09.2021" );
     }
 }

@@ -7,6 +7,6 @@ public class PremCard extends PlatCard {
     }
     @Override
     public void validity() {
-        System.out.println("Validity date Premium card: 08.2022" );
+        System.out.println("Validity Premium card: 08.2022" );
     }
 }

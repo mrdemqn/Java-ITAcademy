@@ -33,6 +33,6 @@ public class PremCard extends PlatCard implements InterfBankCard{
     public void incomeOnCurrentBalance(float percent) {
     balance = (balance / 100) * (100 + percent);
         System.out.println("Interest trait of current balance income is - " +
-    percent + "\n" + "Balance at the and of the month considering income on current balance is - " + balance);
+    percent + "%" + "\n" + "Balance at the and of the month considering income on current balance is - " + balance);
 }
 }

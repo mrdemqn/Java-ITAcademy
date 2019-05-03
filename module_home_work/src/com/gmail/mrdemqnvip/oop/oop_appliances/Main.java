@@ -2,12 +2,13 @@ package com.gmail.mrdemqnvip.oop.oop_appliances;
 
 public class Main {
     public static void main(String[] args) {
-        Appliances appliances = new CoffeeMachine();
-        appliances.turningOn();
-        appliances.makeCoffe();
-        appliances.powerOff();
+        Appliances appliances = new CoffMach("Coffee Machine", "Moulinex", "Electrical");
+        ((PlunIn) appliances).turningOn();
+        ((CoffMach) appliances).makeCoffe();
+        ((PlunIn) appliances).powerOff();
+        System.out.println();
 
-        CoffeeMachine washer = new Washer();
+        CoffMach washer = new Washer("Washing machine", "LG electronics", "Electrical");
         washer.plugIntoSocket();
         washer.turningOn();
         washer.work();

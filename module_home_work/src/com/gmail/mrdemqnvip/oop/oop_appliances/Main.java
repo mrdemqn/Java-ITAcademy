@@ -8,12 +8,12 @@ public class Main {
         ((PlunIn) appliances).powerOff();
         System.out.println();
 
-        CoffMach washer = new Washer("Washing machine", "LG electronics", "Electrical");
-        washer.plugIntoSocket();
-        washer.turningOn();
+        Appliances washer = new Washer("Washing machine", "LG electronics", "Electrical");
+        ((Washer) washer).plugIntoSocket();
+        ((Washer) washer).turningOn();
         washer.work();
         ((Washer)washer).washClothes();
-        washer.powerOff();
+        ((Washer) washer).powerOff();
 
     }
 }

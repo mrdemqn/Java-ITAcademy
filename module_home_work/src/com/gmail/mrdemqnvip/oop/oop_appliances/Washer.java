@@ -1,6 +1,6 @@
 package com.gmail.mrdemqnvip.oop.oop_appliances;
 
-public class Washer extends CoffMach implements PlunIn {
+public class Washer extends Appliances implements PlunIn {
 
     public Washer(String typeApp, String brandName, String principOper) {
         super(typeApp, brandName, principOper);

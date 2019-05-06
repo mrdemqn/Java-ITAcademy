@@ -5,8 +5,7 @@ public class CoffMach extends Appliances implements PlunIn {
     public CoffMach(String typeApp, String brandName, String principOper) {
         super(typeApp, brandName, principOper);
     }
-
-    public void makeCoffe() {
+    void makeCoffe() {
         System.out.println("Making coffee ");
     }
 

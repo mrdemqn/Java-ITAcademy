@@ -9,7 +9,6 @@ public class Main {
         System.out.println("Enter number: ");
         int x = scan.nextInt();
         if (scan.hasNextLine()) {
-            x = scan.nextInt();
             for (int i = (int) Math.sqrt(x); i >= 1; i--) {
                 if (x % i == 0 && i != 1) {
                     System.out.println("This is not a natural number: " + x);

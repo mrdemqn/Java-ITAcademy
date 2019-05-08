@@ -8,7 +8,6 @@ public class Main {
         Scanner scan = new Scanner(System.in);
         System.out.println("Enter number: ");
         int i = 0;
-
         while (true) {
             String s = scan.nextLine();
             if ("Sum".equals(s)) {

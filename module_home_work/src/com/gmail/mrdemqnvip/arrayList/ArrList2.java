@@ -1,11 +1,7 @@
 package com.gmail.mrdemqnvip.arrayList;
 
 import java.util.ArrayList;
-import java.util.Iterator;
-import java.util.List;
 import java.util.Scanner;
-
-import static java.lang.Math.random;
 
 public class ArrList2 {
 
@@ -16,7 +12,7 @@ public class ArrList2 {
         String elem = consoleScanner.nextLine();
         int element = Integer.parseInt(elem);
         int negative = 3;
-        ArrayList<Integer> listStudentsMarks2 = new ArrayList<Integer>(element);
+        ArrayList<Integer> listStudentsMarks2 = new ArrayList<>(element);
 
         for (int i = 0; i < element; i++) {
                 int a = (int) (Math.random() * 10 + 1);

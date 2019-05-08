@@ -1,4 +1,4 @@
-package com.gmail.mrdemqnvip.fatorial;
+package com.gmail.mrdemqnvip.factorial;
 
 import java.util.Scanner;
 

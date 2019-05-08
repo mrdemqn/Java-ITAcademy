@@ -1,16 +1,25 @@
 package com.gmail.mrdemqnvip.week_day;
 
+import java.util.Scanner;
+
 public class Main {
 
     public static void main(String[] args) {
+        Scanner scanSec = new Scanner(System.in);
 
-        int s = 3700;
+        System.out.println("Enter number seconds: ");
+
+        int s = scanSec.nextInt();
 
         int sec;
 
         int m;
 
         int min, h;
+
+        int hour, week, day;
+
+        int d;
 
         sec = s % 60;
 
@@ -20,23 +29,17 @@ public class Main {
 
         h = (m -min) / 60;
 
+        hour = h % 24;
+
+        d = (h - hour) / 24;
+
+        day = d % 7;
+
+        week = (d - day) / 7;
+
         System.out.println(h+" часов " + min + " минут " + sec + " секунд ");
 
-        int d = 30;
-
-        int day;
-
-        int w;
-
-        int week;
-
-        day = d % 4;
-
-        w = (d - day) / 7;
-
-        week = d / 4;
-
-        System.out.println("В 30-ти днях - " + w + " недель, " +  "а дней в неделе " + week);
+        System.out.println(week + " week " + day + " day " + hour + " часов " + min + " минут " + sec + " секунд ");
 
     }
 

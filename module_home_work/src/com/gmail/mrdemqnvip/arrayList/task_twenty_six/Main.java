@@ -12,9 +12,8 @@ public class Main {
     public static void main(String[] args) {
         List<Students> studentsList = new ArrayList<>();
         Random rand = new Random();
-        boolean isPerson = true;
         for(int i = 0; i < rand.nextInt(30);i++){
-            studentsList.add(new Students(rand.nextInt(11),getNameSurname(rand,isPerson)));
+            studentsList.add(new Students(rand.nextInt(11),getNameSurname(rand, true)));
     }
         System.out.println("List students with mark: "+ studentsList);
         for (int i = 0; i < studentsList.size(); i++){

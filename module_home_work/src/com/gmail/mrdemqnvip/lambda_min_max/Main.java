@@ -8,10 +8,7 @@ public class Main {
         PrintNumbers printNumbers = new PrintNumbers();
         Random random = new Random();
 
-        printNumbers.numbersPrinter(limit -> new Random().nextInt(limit));
-        printNumbers.numbersPrinter(limit -> new Random().nextInt(limit));
-
-        System.out.println("Min and Max ");
+        System.out.println("Min");
         printNumbers.printMinMax(x ->{
             int a = random.nextInt(100);
             int b = random.nextInt(100);
@@ -21,6 +18,7 @@ public class Main {
                 }
 
         );
+        System.out.println("Max");
         printNumbers.printMinMax(x ->{
             int a = random.nextInt(100);
             int b = random.nextInt(100);

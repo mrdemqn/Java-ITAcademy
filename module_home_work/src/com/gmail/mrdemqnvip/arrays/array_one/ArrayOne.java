@@ -27,8 +27,8 @@ public class ArrayOne{
 
             switch (scann.nextLine()) {
                 case "Continue": {
-                    System.out.println("Do you want to try again?: [Continue] [Exit]");
-                } break;
+                    break;
+                }
                 case "Exit": {
                     isTrue = false;
                     break;
